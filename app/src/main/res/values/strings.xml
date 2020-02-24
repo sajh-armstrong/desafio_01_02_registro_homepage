@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Desafío Login</string>
+    <string name="user_hint">Ingrese Usuario</string>
+    <string name="pass_hint">Ingrese Contraseña</string>
+    <string name="login_button">Ingresar</string>
+    <string name="toast_login">Usuario ingresado con éxito</string>
+</resources>

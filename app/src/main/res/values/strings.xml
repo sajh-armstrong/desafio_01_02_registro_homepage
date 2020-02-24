@@ -2,6 +2,40 @@
     <string name="app_name">Desafío Login</string>
     <string name="user_hint">Ingrese Usuario</string>
     <string name="pass_hint">Ingrese Contraseña</string>
+    <string name="register_button">Registrarse</string>
     <string name="login_button">Ingresar</string>
     <string name="toast_login">Usuario ingresado con éxito</string>
+    <string name="reg_user_hint">Nombre de Usuario</string>
+    <string name="reg_email_hint">Correo Electrónico</string>
+    <string name="reg_pass_hint">Contraseña</string>
+    <string name="reg_pass_confirm_hint">Confirme Contraseña</string>
+    <string name="spinner_prompt">Ingrese Edad</string>
+
+    <string-array name="spinner_ages">
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
 </resources>

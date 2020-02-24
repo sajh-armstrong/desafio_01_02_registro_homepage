@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRegister">
+
+    <EditText
+        android:id="@+id/editText_User_Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:hint="@string/reg_user_hint"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/editText_Email_Reg"/>
+
+    <EditText
+        android:id="@+id/editText_Email_Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:hint="@string/reg_email_hint"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/editText_User_Reg"
+        app:layout_constraintBottom_toTopOf="@id/editText_Pass_Reg"/>
+<!--TODO arreglar layouts-->
+    <EditText
+        android:id="@+id/editText_Pass_Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:hint="@string/reg_pass_hint"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <EditText
+        android:id="@+id/editText_Pass_Confirm_Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:hint="@string/reg_pass_confirm_hint"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <!--<TextView
+        android:id="@+id/textView_Edad_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="@string/spinner_text"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="522dp" />-->
+
+    <Spinner
+        android:id="@+id/spinner_Edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:entries="@array/spinner_ages"
+        android:prompt="@string/spinner_prompt"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

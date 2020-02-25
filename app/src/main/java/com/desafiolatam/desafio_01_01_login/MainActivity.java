@@ -48,4 +48,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ActivityRegister.class);
         startActivity(intent);
     }
+//TODO LO QUE VENGA DESPUES DE AGREGAR LA ACTIVITY REGISTRAR
 }
+
+

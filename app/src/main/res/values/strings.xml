@@ -10,6 +10,9 @@
     <string name="reg_pass_hint">Contraseña</string>
     <string name="reg_pass_confirm_hint">Confirme Contraseña</string>
     <string name="spinner_prompt">Ingrese Edad</string>
+    <string name="radio_male">Masculino</string>
+    <string name="radio_female">Femenino</string>
+    <string name="radio_intersex">Intersexual</string>
 
     <string-array name="spinner_ages">
         <item>16</item>

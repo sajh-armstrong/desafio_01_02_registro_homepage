@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         button_Register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startRegister();
+                startActivity(ActivityRegister.class);
             }
         });
 
@@ -39,16 +39,16 @@ public class MainActivity extends AppCompatActivity {
         button_Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, R.string.toast_login, Toast.LENGTH_SHORT).show();
+                startActivity(HomeActivity.class);
             }
         });
     }
 
-    private void startRegister(){
-        Intent intent = new Intent(this, ActivityRegister.class);
+    private void startActivity(Class activityClass){
+        Intent intent = new Intent(this, activityClass);
         startActivity(intent);
     }
-//TODO LO QUE VENGA DESPUES DE AGREGAR LA ACTIVITY REGISTRAR
+
 }
 
 
